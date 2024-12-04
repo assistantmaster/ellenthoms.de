@@ -1,0 +1,344 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0,0,0)
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.nav {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-right: 30px;
+
+}
+.nav:hover {
+    text-decoration: underline;
+}
+.map {
+    width: 100%;
+    height: 500px;
+}
+.content {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 20px;
+    height: 100%;
+    margin-bottom: 150px;
+}
+.adresse {
+    margin-top: 50px;
+}
+.kontakt-link {
+    color:rgb(0, 0, 0);
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    right: 0;
+    height: 22px;
+    overflow: auto;
+    background-color:rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
+}
+.footer-links {
+    margin-right: 10px;
+    margin-left: 10px;
+    color:rgb(0, 0, 0);
+}
+.portrait {
+    width: 157px;
+    height: 170px;
+}
+.portrait-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.über {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+.profiles {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.profile-link{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bilder {
+    width: 30%;
+    height: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.items {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.item {
+    width: 33%;
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+.item:hover {
+    background-color: rgb(190, 190, 190);
+}
+.item-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.item-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    text-decoration-color: rgb(0, 0, 0);
+}
+.img-product {
+    margin-right: 20px;
+    width: 40%;
+    margin-top: 70px;
+    height: 100%;
+}
+.product-div {
+    display: flex;
+    margin-left: 5%;
+}
+.product-text {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 40%;
+    flex-direction: column;
+}
+.buy-div {
+    height: 40px;
+    background-color: rgb(30, 30, 255);
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.buy {
+    text-decoration: none;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    
+}
+.ctxMenu{
+    display: none;
+    position: absolute;
+    
+}
+/*Copy Start https://github.com/frontend-joe/css-reels/blob/main/burgers/part-3/index.css */
+.burger {
+    position: absolute;
+    background: rgb(230,230,230);
+    border: 0;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    padding: 0;
+    opacity: 0.6;
+    scale: 0.7;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.175s;
+}
+  .burger:hover {
+    opacity: 1;
+    background: rgb(190,190,190);
+}
+.burger-6 {
+    scale: 0.6;
+}
+  
+.burger-6 .line {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(0,0,0);
+    border-radius: 10px;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  
+.burger-6:hover {
+    cursor: pointer;
+}
+
+.burger-6 {
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  
+  .burger-6.is-closed {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  
+.burger-6:before {
+    content: "";
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    border: 5px solid transparent;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  
+.burger-6.is-closed:before {
+    border: 5px solid rgb(0, 0, 0);
+}
+  
+.burger-6.is-closed .line {
+    width: 35px;
+}
+  
+.burger-6.is-closed .line:nth-child(2) {
+    opacity: 0;
+}
+ 
+.burger-6.is-closed .line:nth-child(1) {
+    -webkit-transform: translateY(13px);
+    -ms-transform: translateY(13px);
+    -o-transform: translateY(13px);
+    transform: translateY(13px);
+}
+  
+.burger-6.is-closed .line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(90deg);
+    -ms-transform: translateY(-13px) rotate(90deg);
+    -o-transform: translateY(-13px) rotate(90deg);
+    transform: translateY(-13px) rotate(90deg);
+}
+/* Copy End */
+.burger{
+    display: none;
+}
+.menu.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+.shop-neu {
+    color: rgb(255, 0, 0)
+}
+.error {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.monate {
+    width: 90%;
+    margin-top: 100px;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mehr-monate {
+    width: 90%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kalender-img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1080px) {
+    .fotos {
+        width: auto;
+    }
+    .footer {
+        visibility: hidden;
+    }
+    .nav {
+        margin-top: 10px;
+    }
+    .menu {
+        display: none;
+        text-align: end;
+        background-color: rgb(255,255,255);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .et {
+        width: 50%;
+    }
+    .items {
+        flex-direction: column;
+    }
+    .item {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-div {
+        flex-direction: column;
+    }
+    .img-product {
+        width: 100%;
+    }
+    .product-text {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .burger {
+        display: grid;
+        right: 50px;
+        top: 30px;
+    }
+    .monate {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
